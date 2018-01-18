@@ -10,12 +10,16 @@ public class Time
         int sPerMin = 60;
         double currentTotal = (hour * sPerHour + minute * sPerMin);
 
+
         System.out.print("The current time is ");
         System.out.print(hour);
         System.out.print(":");
         System.out.print(minute);
         System.out.print(":");
         System.out.println(second);
+
+        System.out.print("The number of seconds since midnight: ");
+        System.out.println(currentTotal);
 
         System.out.print("The number of seconds left in the day is: ");
         System.out.println(total - currentTotal);
@@ -35,10 +39,6 @@ public class Time
         System.out.print(newMinute - minute);
         System.out.print(":");
         System.out.println(newSecond - second);
-
-
-
-
 
 
     }
