@@ -7,7 +7,11 @@ public class Convert {
 
     public static void main(String[] args) {
         double cm;
-        int feet, inches, remainder;
+
+        int feet;
+        int inches;
+        int remainder;
+
         final double CM_PER_INCH = 2.54;
         final int IN_PER_FOOT = 12;
         Scanner in = new Scanner(System.in);
