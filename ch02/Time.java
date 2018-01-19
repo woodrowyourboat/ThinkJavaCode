@@ -5,7 +5,7 @@ public class Time
         int hour = 14;
         int minute = 30;
         int second = 37;
-        double total = 86400.;
+        double total = 86400;
         int sPerHour = 3600;
         int sPerMin = 60;
         double currentTotal = (hour * sPerHour + minute * sPerMin);
