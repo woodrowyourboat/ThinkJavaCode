@@ -11,6 +11,7 @@ public class ConvertTemp
         double celsius;
         double fahr;
 
+
         Scanner in = new Scanner(System.in);
 
         // prompt the user and get the value
@@ -18,8 +19,8 @@ public class ConvertTemp
         celsius = in.nextDouble();
 
         // convert and output the result
-        fahr = (((celsius * 9) / 5) + 32);
-        System.out.println(fahr + "\u00b0 Fahrenheit.");
+        fahr =  (((celsius * 9) / 5) + 32);
+        System.out.printf("%.01f\u00b0 Celsius = %.01f\u00b0 Fahrenheit", celsius, fahr);
     }
 
 }
