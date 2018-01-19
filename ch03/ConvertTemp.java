@@ -19,7 +19,7 @@ public class ConvertTemp
         celsius = in.nextDouble();
 
         // convert and output the result
-        fahr =  (((celsius * 9) / 5) + 32);
+        fahr = (((celsius * 9) / 5) + 32);
         System.out.printf("%.01f\u00b0 Celsius = %.01f\u00b0 Fahrenheit", celsius, fahr);
     }
 
