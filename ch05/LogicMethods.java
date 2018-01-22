@@ -31,6 +31,11 @@ public class LogicMethods
         printLargestOdd(7, 7);
         //5D output ends here.
 
+        //5-4 output begins here:
+        System.out.println("\n Exercise 5-4:\n");
+        checkFermat(3, 8, 9, 4);
+        checkFermat(9, 5, 7, 1);
+
     }
 
     //5A and 5B methods begin here:
@@ -94,4 +99,23 @@ public class LogicMethods
         }
     }
     //5D methods end here.
+
+    //5-4 methods begin here:
+    private static void checkFermat(int a, int b, int c, int n)
+    {
+        //Fermat Last Theorem is a^n +        b^n = c^n
+
+        double fermatFormula = (Math.pow(a, n) + Math.pow(b, n));
+
+        if (n > 2 && fermatFormula == Math.pow(c, n))
+        {
+            System.out.println("Holy smokes, Fermat was wrong! \n");
+        }
+
+        else
+        {
+            System.out.println("No, that doesn't work. \n");
+        }
+    }
+    //5-4 methods end here.
 }
