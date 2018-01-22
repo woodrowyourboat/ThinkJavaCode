@@ -3,7 +3,7 @@ public class LogicMethods
     public static void main(String args[])
     {
         //Exercises 5A and 5B output begin here:
-        System.out.println("Exercise 5-A and B \n");
+        System.out.println("\nExercise 5-A and B: \n");
 
         printIsLarge(4);
         printIsLargeOrSmall(4);
@@ -22,6 +22,15 @@ public class LogicMethods
         printLargest(22, 37);
         printLargest(21, 21);
         //5C output ends here.
+
+        //5D output begins here:
+        System.out.println("\n Exercise 5-D:\n");
+
+        printLargestOdd(37, 81);
+        printLargestOdd(22, 4);
+        printLargestOdd(7, 7);
+        //5D output ends here.
+
     }
 
     //5A and 5B methods begin here:
@@ -65,4 +74,24 @@ public class LogicMethods
         }
     }
     //5C methods end here.
+
+    //5D methods begin here:
+    private static void printLargestOdd(int number1, int number2)
+    {
+        System.out.println("The numbers are: " + number1 + " and " + number2);
+
+        if ((number1 == number2) && (number1 % 2 != 0) && (number2 % 2 != 0))
+        {
+            System.out.println("Two odds make an even: " + Math.addExact(number1, number2) + "\n");
+        }
+        else if (number1 % 2 == 0 && number2 % 2 == 0)
+        {
+            System.out.println("Neither number is odd. \n");
+        }
+        else if (number1 % 2 != 0 || number2 % 2 != 0)
+        {
+            System.out.println("The largest odd number is: " + Math.max(number1, number2) + "\n");
+        }
+    }
+    //5D methods end here.
 }
