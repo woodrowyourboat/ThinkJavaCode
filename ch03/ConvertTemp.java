@@ -15,12 +15,17 @@ public class ConvertTemp
         Scanner in = new Scanner(System.in);
 
         // prompt the user and get the value
-        System.out.print("Exactly how many degrees Celsius? ");
+        askQuestion();
         celsius = in.nextDouble();
 
         // convert and output the result
         fahr = (((celsius * 9) / 5) + 32);
         System.out.printf("%.01f\u00b0 Celsius = %.01f\u00b0 Fahrenheit", celsius, fahr);
+    }
+
+    private static void askQuestion()
+    {
+        System.out.print("Exactly how many degrees Celsius? ");
     }
 
 }
