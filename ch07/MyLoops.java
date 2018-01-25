@@ -5,6 +5,8 @@ public class MyLoops
     public static void main(String[] args)
     {
         //Exercises called here.
+
+        //7A
         System.out.println("7A");
 
         System.out.println("For Regular:");
@@ -26,6 +28,7 @@ public class MyLoops
         exercise7aDoWhileLoopReverse();
 
 
+        //7B
         System.out.println("\n\n\n7B");
 
         System.out.println("For Loop");
@@ -38,6 +41,7 @@ public class MyLoops
         exercise7bDoWhileLoop();
 
 
+        //7C
         System.out.println("\n\n\n7C");
 
         System.out.println("For Loop");
@@ -50,6 +54,7 @@ public class MyLoops
         exercise7cDoWhileLoop();
 
 
+        //7D
         System.out.println("\n\n\n7D");
 
         System.out.println("For Loop");
@@ -62,6 +67,7 @@ public class MyLoops
         exercise7dDoWhileLoop(11);
 
 
+        //7E
         System.out.println("\n\n\n7E");
 
         System.out.println("For Loop");
@@ -72,6 +78,19 @@ public class MyLoops
 
         System.out.println("\n Do While Loop");
         exercise7eDoWhileLoop();
+
+
+        //7F
+        System.out.println("\n\n\n7F");
+
+        System.out.println("For Loop");
+        exercise7fForLoop();
+
+        System.out.println("\n While Loop");
+        exercise7fWhileLoop();
+
+        System.out.println("\n Do While Loop");
+        exercise7fDoWhileLoop();
 
     }
 
@@ -174,6 +193,7 @@ public class MyLoops
 
 
     //7C begins
+
     private static void exercise7cForLoop()
     {
         for (int count = 100; count >= -100; count -= 8)
@@ -209,6 +229,7 @@ public class MyLoops
 
 
     //7D begins
+
     public static void exercise7dForLoop(int count)
 
     {
@@ -247,25 +268,20 @@ public class MyLoops
 
 
     //7E begins
+
     private static void exercise7eForLoop()
     {
         final int REQUIRED_NUMBER = 0;
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Please pick a number (Hint: Nada.)");
+        System.out.println("Please pick a number (Hint: Nada)");
 
-
+        for (int userNumber = in.nextInt(); userNumber != REQUIRED_NUMBER; userNumber = in.nextInt())
         {
-            for (int userNumber = in.nextInt(); userNumber != REQUIRED_NUMBER; userNumber = in.nextInt())
-            {
-
-                System.out.println("Please input a different number.");
-
-            }
-
-
+            System.out.println("Please input a different number.");
         }
+
     }
 
 
@@ -273,41 +289,109 @@ public class MyLoops
     {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Please pick a number (Hint: Nada.)");
+        System.out.println("Please pick a number (Hint: Nada)");
         int userNumber = in.nextInt();
         final int REQUIRED_NUMBER = 0;
 
 
         while (userNumber != REQUIRED_NUMBER)
         {
-            System.out.println("Please input a different number");
+            System.out.println("Please input a different number.");
             userNumber = in.nextInt();
 
         }
 
     }
 
+    //NOTE: Do-while is ugly because do-while loops must execute once before testing, so I had to overly engineer it to make it work.
     private static void exercise7eDoWhileLoop()
     {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Please pick a number (Hint: Nada.)");
+        System.out.println("Please pick a number. (Hint: Nada)");
         int userNumber = in.nextInt();
         final int REQUIRED_NUMBER = 0;
+        boolean sameNumber = (userNumber == REQUIRED_NUMBER);
 
-
-        do
+        if (!sameNumber)
         {
-            System.out.println("Please input a different number");
-            userNumber = in.nextInt();
+            do
+            {
+                System.out.println("Please input a different number.");
+                userNumber = in.nextInt();
+            }
+
+            while (!sameNumber);
         }
 
-        while (userNumber != REQUIRED_NUMBER);
 
     }
 
+    //7F Begins
 
+    private static void exercise7fForLoop()
+    {
+        Scanner in = new Scanner(System.in);
 
+        System.out.println("Please pick a number.");
+        int userNumber = in.nextInt();
+        int newNumber = 0;
+        int runningTotal = userNumber;
+
+        for (runningTotal = userNumber; runningTotal + newNumber < 1000; runningTotal = runningTotal + newNumber)
+        {
+            System.out.println(runningTotal);
+            System.out.println("Please input another number.");
+            newNumber = in.nextInt();
+        }
+        System.out.println(runningTotal);
+    }
+
+    private static void exercise7fWhileLoop()
+    {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Please pick a number.");
+        int userNumber = in.nextInt();
+        int newNumber = 0;
+        int runningTotal = userNumber;
+
+        while (runningTotal + newNumber < 1000)
+        {
+            runningTotal = runningTotal + newNumber;
+            System.out.println(runningTotal);
+            System.out.println("Please input another number.");
+            newNumber = in.nextInt();
+        }
+        System.out.println(runningTotal + newNumber);
+    }
+
+//NOTE: Do-while is ugly because do-while loops must execute once before testing, so I had to overly engineer it to make it work.
+    private static void exercise7fDoWhileLoop()
+    {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Please pick a number.");
+        int userNumber = in.nextInt();
+        int newNumber = 0;
+        int runningTotal = userNumber;
+
+        if (runningTotal + newNumber < 1000)
+        {
+            do
+            {
+                runningTotal = runningTotal + newNumber;
+                System.out.println(runningTotal);
+                System.out.println("Please input another number.");
+                newNumber = in.nextInt();
+            }
+
+            while (runningTotal + newNumber < 1000);
+
+            System.out.println(runningTotal + newNumber);
+        }
+
+    }
 }
 
 
