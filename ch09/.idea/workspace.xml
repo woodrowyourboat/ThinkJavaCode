@@ -7,12 +7,8 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/../ch05/CrazyEd.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/../ch07/Basketball.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/../ch08/Exercise8D.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../ch08/Exercise8E.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/NineC.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/NineD.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/NineE.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/NineF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/NineG.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/NineH.java" />
       <change beforePath="$PROJECT_DIR$/../ch04/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ch04/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../ch05/LogicMethods.java" afterPath="$PROJECT_DIR$/../ch05/LogicMethods.java" />
       <change beforePath="$PROJECT_DIR$/../ch07/MyLoops.java" afterPath="$PROJECT_DIR$/../ch07/MyLoops.java" />
@@ -62,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NineC.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NineC.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NineC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -108,17 +104,17 @@
       <file leaf-file-name="NineG.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NineG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="145">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NineH.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NineH.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NineH.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="204">
               <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
@@ -149,18 +145,17 @@
         <option value="$PROJECT_DIR$/NineB.java" />
         <option value="$PROJECT_DIR$/NineD.java" />
         <option value="$PROJECT_DIR$/NineE.java" />
-        <option value="$PROJECT_DIR$/NineC.java" />
         <option value="$PROJECT_DIR$/NineF.java" />
         <option value="$PROJECT_DIR$/NineG.java" />
         <option value="$PROJECT_DIR$/NineH.java" />
+        <option value="$PROJECT_DIR$/NineC.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="217" />
-    <option name="y" value="282" />
-    <option name="width" value="1216" />
-    <option name="height" value="940" />
+    <option name="x" value="-7" />
+    <option name="width" value="1094" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NineH">
+  <component name="RunManager" selected="Application.NineC">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -371,11 +366,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NineH" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NineC" />
         <item index="1" class="java.lang.String" itemvalue="Application.NineG" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NineF" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NineE" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NineC" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NineH" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NineF" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NineE" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517324669632</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Everything except 9C, completed">
+      <created>1517324762151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517324762151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -415,12 +417,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5021322" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5780591" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5780591" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51995564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -439,9 +441,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Everything except 9C, completed" />
     <MESSAGE value="Everything except 9C, completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything except 9C, completed." />
+    <MESSAGE value="Everything except 9C, completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything except 9C, completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,14 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NineB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NineA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -477,10 +471,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NineC.java">
+    <entry file="file://$PROJECT_DIR$/NineH.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NineG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NineF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -504,26 +514,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NineF.java">
+    <entry file="file://$PROJECT_DIR$/NineB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NineG.java">
+    <entry file="file://$PROJECT_DIR$/NineC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NineH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="214">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding />
         </state>
       </provider>
